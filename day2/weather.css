@@ -1,0 +1,27 @@
+.columns{
+    border: solid, 5px,
+}
+
+.blue{
+    background-color: skyblue;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.silver{
+    background-color: silver;
+}
+
+.red{
+    background-color: red;
+}
