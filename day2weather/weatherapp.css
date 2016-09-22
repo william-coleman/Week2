@@ -16,42 +16,42 @@ h2{
 }
 
 .rain{
-    background-image:url("http://www.weatherinthehud.com/wordpress/wp-content/uploads/2015/11/rain.jpg");
+    background-image:url(http://www.weatherinthehud.com/wordpress/wp-content/uploads/2015/11/rain.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: -1;
 }
 
 .snow{
-    background-image:url("http://az616578.vo.msecnd.net/files/2016/01/11/635880790408168937-524487530_snow-7.jpg");
+    background-image:url(http://az616578.vo.msecnd.net/files/2016/01/11/635880790408168937-524487530_snow-7.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: -1;
 }
 
 .wind{
-    background-image:url("http://www.newsread.in/wp-content/uploads/2016/06/Wind-6.jpg");
+    background-image:url(http://www.newsread.in/wp-content/uploads/2016/06/Wind-6.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: -1;
 }
 
 .foggy{
-    background-image:url("https://static.pexels.com/photos/5230/road-fog-foggy-mist.jpg");
+    background-image:url(https://static.pexels.com/photos/5230/road-fog-foggy-mist.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: -1;
 }
 
 .sunny{
-    background-image:url("http://www.hotel-r.net/im/hotel/lv/sunny-1.jpg");
+    background-image:url(http://www.hotel-r.net/im/hotel/lv/sunny-1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: -1;
 }
 
 .storm{
-    background-image:url("http://www.gannett-cdn.com/-mm-/3526533239800dac0c978150377d099025f1e52c/c=52-700-4303-3102&r=x1683&c=3200x1680/local/-/media/USATODAY/None/2014/10/03/1412368123000-Mesostorm-Lightning.jpg");
+    background-image:url(http://www.gannett-cdn.com/-mm-/3526533239800dac0c978150377d099025f1e52c/c=52-700-4303-3102&r=x1683&c=3200x1680/local/-/media/USATODAY/None/2014/10/03/1412368123000-Mesostorm-Lightning.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: -1;
