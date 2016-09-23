@@ -12,6 +12,8 @@
 </head>
 
 <body>
+    <input id="zip" type="text" placeholder="Address/City/ or Zip">
+    <button id="zipBut">Find Weather</button>
     <hr />
     <br />
     <br />
@@ -19,7 +21,7 @@
     <div class="container">
         <div class="columns">
             <div class="col-sm-4 cards snow">
-                <h1>32 F</h1>
+                <h1 id = "firstcol"></h1>
                 <h2>Pikeville, KY</h2>
                 <h2>High: 45 F</h2>
                 <h2>Low: 27 F</h2>
@@ -47,9 +49,7 @@
             <div class="col-sm-4 cards storm">
                 <h1>44 F</h1>
                 <h2>Paintsville, KY</h2>
-                <h2>High: 51 F</h2>
-                <h2>Low: 32 F</h2>
-                <h2>Precip: 100%</h2>
+                <ul id="weather"></ul>
             </div>
             <div class="col-sm-4 cards rain">
                 <h1>68 F</h1>
