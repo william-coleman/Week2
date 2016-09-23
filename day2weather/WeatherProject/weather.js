@@ -22,7 +22,7 @@ $(document).ready(function () {
                 var time = data.currently.time;
                 var humid = data.currently.humidity;
                 console.log(temp, overal, chance, time, humid);
-                $("#firstcol").append(temp);
+                $("#firstcol").html(temp);
             });
         });
     });
