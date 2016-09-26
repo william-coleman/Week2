@@ -11,19 +11,21 @@ $(document).ready(function () {
         var urlG = base + $(zip).val() + gogKey;
         $.ajax(urlG, { method: "GET" }).done(function (data) {
             console.log(data.results[0].geometry.location);
-            console.log(data.results[0].formatted_address);
+            var place = data.results[0].formatted_address;
             var lat = data.results[0].geometry.location.lat;
             var long = data.results[0].geometry.location.lng;
             var urlD = darksky + lat + "," + long;
+            // callback(place);
+
             $.ajax(urlD, { method: "Post", dataType: "jsonp" }).done(function (data) {
                 var temp = data.currently.temperature;
                 var overal = data.currently.summary;
                 var chance = data.currently.precipProbability;
-                var time = data.currently.time;
-                var humid = data.currently.humidity;
-                console.log(temp, overal, chance, time, humid);
-                $("#firstcol").html(temp);
+                $("#firstcol").html(place);
+                $("#secondcol").html(Math.ceil(temp) + "&#8457;");
+                $("#thirdcol").html(overal);
+                $("#fourthcol").html("Rain Chance: " + (chance*100) + "&#37;");
+                });
             });
         });
     });
-});
